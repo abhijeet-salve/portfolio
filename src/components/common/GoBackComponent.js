@@ -12,10 +12,7 @@ export default function GoBackComponent() {
       }}
     >
       <KeyboardBackspaceRoundedIcon />
-      <button
-        type="button"
-        class=" text-base font-semibold leading-6 text-gray-900"
-      >
+      <button type="button" class=" text-base font-semibold leading-6 ">
         back
       </button>
     </div>
