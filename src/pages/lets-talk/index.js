@@ -5,7 +5,6 @@ const CalendlyForm = () => {
   const router = useRouter();
 
   const { userName, type, showCookies, showDetails } = router?.query;
-
   return (
     <>
       <div
