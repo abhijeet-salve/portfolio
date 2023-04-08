@@ -1,5 +1,6 @@
 import type { AppProps } from "next/app";
 import Header from "../components/HeaderComponent";
+import GoBack from "../components/common/GoBackComponent";
 import { ThemeProvider } from "next-themes";
 import "@/styles/globals.css";
 
@@ -71,6 +72,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <ThemeProvider attribute="class">
         <div className=" mx-6 sm:mx-24 lg:mx-32 xl:mx-80 whitespace-pre font-Poppins">
           <Header user={ABHIJEET} />
+          <GoBack />
           <Component {...pageProps} user={ABHIJEET} />
         </div>
       </ThemeProvider>

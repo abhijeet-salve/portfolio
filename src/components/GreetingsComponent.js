@@ -63,6 +63,7 @@ export default function GreetingsComponent({ user }) {
             if (link?.isActive)
               return (
                 <Link
+                  key={link?.url}
                   href={link?.url}
                   rel="noopener noreferrer"
                   target="_blank"
