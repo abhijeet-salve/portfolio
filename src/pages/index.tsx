@@ -18,7 +18,7 @@ export default function Home({ user }: { user: any }) {
           rel="stylesheet"
         />
       </Head>
-      <MainSkills skills={user?.technicalSkills} />
+      {/* <MainSkills skills={user?.technicalSkills} /> */}
 
       <Greetings user={user} />
     </>

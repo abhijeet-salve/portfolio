@@ -27,7 +27,7 @@ export default function GreetingsComponent({ user }) {
   };
 
   return (
-    <div className="mt-0 flex ">
+    <div className="mt-64 flex ">
       <div>
         <span className="flex">
           <p className=" text-2xl lg:text-5xl  antialiased font-bold tracking-wide">
