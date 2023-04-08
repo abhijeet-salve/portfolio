@@ -4,7 +4,7 @@ import KeyboardBackspaceRoundedIcon from "@mui/icons-material/KeyboardBackspaceR
 export default function GoBackComponent() {
   const router = useRouter();
 
-  return router?.pathname !== "/" ? (
+  return router?.pathname === "/lets-chat" ? (
     <div
       className="flex flex-1 gap-x-2 cursor-pointer mt-12 mb-6"
       onClick={() => {

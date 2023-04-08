@@ -7,10 +7,29 @@ import GoBack from "../../components/common/GoBackComponent";
 const KARISHMA = {
   fName: "Karishma",
   lName: "Baat",
-  skills: ["hire", "research", "read", "explore"],
+  skills: ["hire", "research", "read", "doodle"],
   shortIntro:
-    "End-to-End Recruitment, Candidate Lifecycle Management, Stakeholder Management, \nDiversity and Inclusion.",
+    "I am an HR professional who likes to solve human capital issues & the kick of finding the\nright person for the right job.",
+  calendyUserName: "curryshma",
+  socialLinks: [
+    {
+      name: "linkedIn",
+      url: "https://www.linkedin.com/in/karishmabaat/",
+      isActive: true,
+    },
+    {
+      name: "twitter",
+      url: "https://twitter.com/curry_shma",
+      isActive: true,
+    },
+    {
+      name: "instagram",
+      url: "https://www.instagram.com/curry.shma/",
+      isActive: true,
+    },
+  ],
 };
+
 export default function Karishma() {
   return (
     <>
