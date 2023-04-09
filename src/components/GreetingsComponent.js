@@ -27,7 +27,7 @@ export default function GreetingsComponent({ user }) {
   };
 
   return (
-    <div className="mt-64 flex ">
+    <div className="mt-52 flex ">
       <div>
         {fName && lName && (
           <span className="flex">
