@@ -10,9 +10,12 @@ export default function HeaderComponent() {
   const calendyUserName = getCalendyUserName(user);
 
   return (
-    <div>
-      <div className=" flex justify-end pt-8  cursor-pointer">
-        <div className="flex gap-x-10 md:gap-x-12 ">
+    <>
+      <div className=" flex  pt-8 cursor-pointer">
+        <div className="flex-1">
+          <h6 className="cursor-pointer text-xl">🌟</h6>
+        </div>
+        <div className="flex gap-x-10 md:gap-x-12 justify-end">
           {calendyUserName && router?.pathname !== "/lets-talk" && (
             <div
               className="flex"
@@ -36,6 +39,6 @@ export default function HeaderComponent() {
           </div>
         </div>
       </div>
-    </div>
+    </>
   );
 }

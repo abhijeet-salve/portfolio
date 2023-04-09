@@ -58,27 +58,34 @@ const USERS = {
         isActive: true,
       },
     ],
-    technicalSkills: [
-      "ReactJs",
-      "React Native",
-      "NextJs",
-      "Strapi",
-      "Redux",
-      "Apollo GraphQL",
-      "REST API Integrations",
-      "Solana web3.js ",
-      "Design System",
-      "Wireframing",
-      "Figma",
-      "tailwind css",
-      "CSS3",
-      "SaSS",
-      "JavaScript",
-      "HTML5",
-    ],
   },
   kuki: {},
   aju: {},
+  jash: {
+    fName: "Jash",
+    lName: "Ravaya",
+    skills: ["do finance", "research", "regulate", "play cricket"],
+    shortIntro:
+      "I am Chartered Accountant by profession who likes to learn macro and micro things going in and around the market.\nBeing a finance enthusiast, like to understand the reports of the company.",
+    calendyUserName: "",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/ca-jash-ravaya-4a206a190",
+        isActive: true,
+      },
+      {
+        name: "twitter",
+        url: "https://twitter.com/jash_ravaya",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/ca_jash_ravaya",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {
