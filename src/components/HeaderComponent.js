@@ -1,16 +1,19 @@
 import { useRouter } from "next/router";
 import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 import ThemeToggle from "./ThemeToggle";
+import { getCalendyUserName } from "../userUtils";
 
-export default function HeaderComponent({ user }) {
+export default function HeaderComponent() {
   const router = useRouter();
-  const { calendyUserName } = user;
+  const { user } = router.query;
+
+  const calendyUserName = getCalendyUserName(user);
 
   return (
     <div>
       <div className=" flex justify-end pt-8  cursor-pointer">
         <div className="flex gap-x-10 md:gap-x-12 ">
-          {router?.pathname !== "/lets-talk" && (
+          {calendyUserName && router?.pathname !== "/lets-talk" && (
             <div
               className="flex"
               onClick={() => {

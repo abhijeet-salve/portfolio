@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import Head from "next/head";
 import { useRouter } from "next/router";
-export default function Home({ user }: { user: any }) {
+
+export default function Home({ user }) {
   const router = useRouter();
 
   useEffect(() => {
