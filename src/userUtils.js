@@ -80,19 +80,9 @@ const KUKI = {};
 const AJU = {};
 
 export const getUserDetails = (username) => {
-  let user = {};
-  if (username === "curryshma") user = KARISHMA;
-  else if (username === "abhijeet") user = ABHIJEET;
-  else if (username === "kuki") user = KUKI;
-  else if (username === "aju") user = AJU;
-  return user;
+  return USERS[username] || {};
 };
 
 export const getCalendyUserName = (username) => {
-  let calendyUserName = {};
-  if (username === "curryshma") calendyUserName = KARISHMA?.calendyUserName;
-  else if (username === "abhijeet") calendyUserName = ABHIJEET?.calendyUserName;
-  else if (username === "kuki") calendyUserName = KUKI?.calendyUserName;
-  else if (username === "aju") calendyUserName = AJU?.calendyUserName;
-  return calendyUserName;
+  return USERS[username]?.calendyUserName;
 };
