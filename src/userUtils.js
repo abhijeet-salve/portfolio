@@ -86,6 +86,21 @@ const USERS = {
       },
     ],
   },
+  ayushi: {
+    fName: "Ayushi",
+    lName: "Dani",
+    skills: ["teach", "dance", "read", "I'am cool 😛"],
+    shortIntro:
+      "I am a teacher who is currently teaching in a primary school. My job is to help the children accomplish and identify their skills.",
+    calendyUserName: "",
+    socialLinks: [
+      {
+        name: "instagram",
+        url: "https://instagram.com/dani_ayushi",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {

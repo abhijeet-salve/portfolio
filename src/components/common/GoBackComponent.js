@@ -5,7 +5,7 @@ export default function GoBackComponent() {
   const router = useRouter();
   return router?.pathname === "/lets-talk" ? (
     <div
-      className="flex flex-1 gap-x-2 cursor-pointer mb-20"
+      className="flex flex-1 gap-x-2 cursor-pointer mt-8 mb-20"
       onClick={() => {
         router?.back();
       }}
