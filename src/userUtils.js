@@ -64,10 +64,10 @@ const USERS = {
     fName: "Ajinkya",
     lName: "Salve",
     skills: [
-      "am a ex-founder",
-      "engineering leader",
+      "code",
+      "lead engineering teams",
       "build products",
-      "handle tech teams",
+      "am a ex-founder",
     ],
     shortIntro:
       "I've Built/developed multiple products from scratch as a founding member of 0-1 startups\nRich Experience in not only designing but also building complex, robust, scalable, and clean architectures/frameworks",
