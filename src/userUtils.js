@@ -67,7 +67,7 @@ const USERS = {
       "code",
       "lead engineering teams",
       "build products",
-      "am a ex-founder",
+      "am an ex-founder",
     ],
     shortIntro:
       "I've Built/developed multiple products from scratch as a founding member of 0-1 startups and \nhave I a rich Experience in not only designing but also building \ncomplex, robust, scalable, and clean architectures/frameworks",
