@@ -101,6 +101,26 @@ const USERS = {
       },
     ],
   },
+  kaushal: {
+    fName: "Kaushal",
+    lName: "Baat",
+    skills: ["do risk analysis", "underwriting", "handle team", "mortgage "],
+    shortIntro:
+      "I am an Mortgage professional with 10 years of experience and 2 years of team handling experience.",
+    calendyUserName: "kaushalbaat",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/kaushal-baat-411a0576",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/kaushal_baat/",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {
