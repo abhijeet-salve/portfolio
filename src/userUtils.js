@@ -1,5 +1,6 @@
 const USERS = {
   curryshma: {
+    customEmoji: "🌻",
     fName: "Karishma",
     lName: "Baat",
     skills: ["hire", "research", "read", "doodle"],
@@ -25,11 +26,12 @@ const USERS = {
     ],
   },
   abhijeet: {
+    customEmoji: "💤",
     fName: "Abhijeet",
     lName: "Salve",
     skills: ["design", "code", "sing", "play guitar"],
     shortIntro:
-      "I'm a full stack frontend developer who likes to build seamless and beautiful user experiences\nby harnessing my development and design skills.",
+      "I'm a full stack frontend developer who likes to build seamless and beautiful user experiences\nby harnessing my development and design skills. I also created this platform.",
     calendyUserName: "abhijeetsalve",
     socialLinks: [
       {
@@ -61,6 +63,7 @@ const USERS = {
   },
   kuki: {},
   ajinkya: {
+    customEmoji: "🖥️",
     fName: "Ajinkya",
     lName: "Salve",
     skills: [
@@ -86,6 +89,7 @@ const USERS = {
     ],
   },
   jash: {
+    customEmoji: "💸",
     fName: "Jash",
     lName: "Ravaya",
     skills: ["do finance", "research", "regulate", "play cricket"],
@@ -111,6 +115,7 @@ const USERS = {
     ],
   },
   ayushi: {
+    customEmoji: "👩‍🏫",
     fName: "Ayushi",
     lName: "Dani",
     skills: ["teach", "dance", "read", "I'am cool 😛"],
@@ -126,6 +131,7 @@ const USERS = {
     ],
   },
   kaushal: {
+    customEmoji: "💵",
     fName: "Kaushal",
     lName: "Baat",
     skills: ["do risk analysis", "underwriting", "handle team", "mortgage "],
@@ -145,6 +151,32 @@ const USERS = {
       },
     ],
   },
+  akshat: {
+    customEmoji: "🍺",
+    fName: "Akshat",
+    lName: "Pasbola",
+    skills: ["mix", "produce", "master", "drink beer"],
+    shortIntro:
+      "I'm a beer-loving mixing and mastering wizard who can turn your tracks into gold while turning up with his favorite brews 😉",
+    calendyUserName: "",
+    socialLinks: [
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/akshatpasbola/",
+        isActive: true,
+      },
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/akshat-pasbola-b20044112/",
+        isActive: true,
+      },
+      {
+        name: "twitter",
+        url: "https://twitter.com/akshat_pasbola",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {
@@ -153,4 +185,8 @@ export const getUserDetails = (username) => {
 
 export const getCalendyUserName = (username) => {
   return USERS[username]?.calendyUserName;
+};
+
+export const getCustomEmoji = (username) => {
+  return USERS[username]?.customEmoji ?? "🌟";
 };

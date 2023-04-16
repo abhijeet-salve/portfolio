@@ -1,19 +1,19 @@
 import { useRouter } from "next/router";
 import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 import ThemeToggle from "./ThemeToggle";
-import { getCalendyUserName } from "../userUtils";
+import { getCalendyUserName, getCustomEmoji } from "../userUtils";
 
 export default function HeaderComponent() {
   const router = useRouter();
   const { user } = router.query;
 
   const calendyUserName = getCalendyUserName(user);
-
+  const customEmoji = getCustomEmoji(user);
   return (
     <>
       <div className=" flex  pt-8 cursor-pointer">
         <div className="flex-1">
-          <h6 className="cursor-pointer text-xl">🌟</h6>
+          <h6 className="cursor-pointer text-xl">{customEmoji}</h6>
         </div>
         <div className="flex gap-x-10 md:gap-x-12 justify-end">
           {calendyUserName && router?.pathname !== "/lets-talk" && (
