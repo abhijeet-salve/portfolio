@@ -177,6 +177,26 @@ const USERS = {
       },
     ],
   },
+  heena: {
+    customEmoji: "✨",
+    fName: "Heena",
+    lName: "Shaikh",
+    skills: ["design", "code", "draw mehendi"],
+    shortIntro:
+      "I'm a frontend developer who likes to build seamless and beautiful user experiences\nby harnessing my development and design skills.",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/heena-shaikh-39b184158/",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/_heenas/",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {

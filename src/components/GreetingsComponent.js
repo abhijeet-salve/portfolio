@@ -37,26 +37,31 @@ export default function GreetingsComponent({ user }) {
           </span>
         )}
 
-        {skills && skills?.length > 0 && (
+        {skills && skills.length > 0 && (
           <>
             <span className="flex flex-wrap text-2xl lg:text-5xl pt-4 antialiased font-bold drop-shadow-md">
               <p>I </p>
-              <p className="cursor-pointer hover:text-lime-500	transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
-                {skills[0]}
-              </p>
-              <p>, </p>
-
-              <p className="cursor-pointer hover:text-amber-500	transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
-                {skills[1]}
-              </p>
-              <p>, </p>
-              <p className="cursor-pointer hover:text-cyan-500	transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
-                {skills[2]}
-              </p>
-              <p> & </p>
-              <p className="cursor-pointer hover:text-cyan-500	transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none ">
-                {skills[3]}
-              </p>
+              {skills.map((skill, index) => (
+                <>
+                  {index !== 0 && index !== skills.length - 1 && (
+                    <span>, </span>
+                  )}
+                  {index === skills.length - 1 && <span> & </span>}
+                  <span>
+                    <p
+                      className={`cursor-pointer hover:text-${
+                        index % 3 === 0
+                          ? "lime"
+                          : index % 3 === 1
+                          ? "amber"
+                          : "cyan"
+                      }-500	transition transform hover:-translate-y-1 motion-reduce:transition-none motion-reduce:hover:transform-none `}
+                    >
+                      {skill}
+                    </p>
+                  </span>
+                </>
+              ))}
               <p>.</p>
             </span>
           </>
