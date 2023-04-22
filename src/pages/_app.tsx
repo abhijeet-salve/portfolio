@@ -1,4 +1,5 @@
 import type { AppProps } from "next/app";
+import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
 import Header from "../components/HeaderComponent";
 import GoBack from "../components/common/GoBackComponent";
@@ -16,6 +17,8 @@ export default function App({ Component, pageProps }: AppProps) {
             <GoBack />
           </div>
           <Component {...pageProps} />
+
+          <Analytics />
         </div>
       </ThemeProvider>
     </>
