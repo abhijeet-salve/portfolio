@@ -1,13 +1,12 @@
-import { useEffect } from "react";
 import Head from "next/head";
-import { useRouter } from "next/router";
-
+import { USERS } from "../userUtils";
 export default function Home({ user }) {
-  const router = useRouter();
+  // const router = useRouter();
 
-  useEffect(() => {
-    router.replace("/curryshma");
-  }, []);
+  // useEffect(() => {
+  //   router.replace("/curryshma");
+  // }, []);
+
   return (
     <>
       <Head>

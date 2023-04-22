@@ -197,6 +197,42 @@ const USERS = {
       },
     ],
   },
+  chirag: {
+    customEmoji: "🏂",
+    fName: "Chirag",
+    lName: "Vyas",
+    skills: ["design", "code", "dance", "produce rap music"],
+    shortIntro:
+      "I'm a full stack frontend developer, designing and programming user interfaces. I sound design as well.",
+    calendyUserName: "chiragvyas",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/chirag-vyas-9b340b22a",
+        isActive: true,
+      },
+      {
+        name: "dribble",
+        url: "https://dribbble.com/chirag_ui",
+        isActive: true,
+      },
+      {
+        name: "twitter",
+        url: "https://twitter.com/ChiragVVays?t=GdBkx6jCWLWaDyg1QOxJmg&s=09",
+        isActive: true,
+      },
+      {
+        name: "youtube",
+        url: "https://youtube.com/@bleak3771",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "https://instagram.com/__chiragvyas__?igshid=ZDdkNTZiNTM=",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {

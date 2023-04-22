@@ -29,7 +29,7 @@ const Profile = () => {
           rel="stylesheet"
         />
       </Head>
-      {/* <MainSkills skills={user?.technicalSkills} /> */}
+      {/* <MainSkills technicalSkills={userDetails?.technicalSkills} /> */}
 
       <Greetings user={userDetails} />
     </>
