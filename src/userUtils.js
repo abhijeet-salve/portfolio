@@ -233,6 +233,41 @@ const USERS = {
       },
     ],
   },
+  rene: {
+    customEmoji: "💻",
+    fName: "René",
+    lName: "Gaikwad",
+    skills: ["edit photos", "videos"],
+    shortIntro:
+      "I'm experienced manager with a demonstrated history of success at The Groove Room, working under the direction of Clinton Cerejo. Proven track record of managing operations, coordinating staff, and maintaining excellent client relationships. Seeking a new challenge in the industry to further develop my skills and achieve new career goals.",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/tallrene",
+        isActive: true,
+      },
+      {
+        name: "twitter",
+        url: "https://twitter.com/tallrene",
+        isActive: true,
+      },
+      {
+        name: "youtube",
+        url: "https://youtube.com/playlist?list=PLYAcZmu_wDhi6YqQjQcQPT5Y8b7WvJcoW",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "https://www.instagram.com/tallrene",
+        isActive: true,
+      },
+      {
+        name: "imdb",
+        url: "https://www.imdb.com/name/nm6142644",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {

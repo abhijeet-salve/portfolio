@@ -5,6 +5,7 @@ import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LaunchIcon from "@mui/icons-material/Launch";
+import { SiImdb } from "@icons-pack/react-simple-icons";
 
 export default function GreetingsComponent({ user }) {
   const { fName, lName, shortIntro, skills, socialLinks } = user;
@@ -21,6 +22,8 @@ export default function GreetingsComponent({ user }) {
         return <YouTubeIcon />;
       case "instagram":
         return <InstagramIcon />;
+      case "imdb":
+        return <SiImdb />;
       default:
         return <LaunchIcon />;
     }
