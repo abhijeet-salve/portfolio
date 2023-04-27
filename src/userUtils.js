@@ -239,7 +239,7 @@ const USERS = {
     lName: "Gaikwad",
     skills: ["edit photos", "videos"],
     shortIntro:
-      "I'm experienced manager with a demonstrated history of success at The Groove Room, working under the direction of Clinton Cerejo. Proven track record of managing operations, coordinating staff, and maintaining excellent client relationships. Seeking a new challenge in the industry to further develop my skills and achieve new career goals.",
+      "I'm experienced manager with a demonstrated history of success at The Groove Room,\nworking under the direction of Clinton Cerejo.\nProven track record of managing operations, coordinating staff, and maintaining excellent client relationships.\nSeeking a new challenge in the industry to further develop my skills and achieve new career goals.",
     socialLinks: [
       {
         name: "linkedIn",
