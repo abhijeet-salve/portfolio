@@ -9,6 +9,7 @@ import { SiImdb } from "@icons-pack/react-simple-icons";
 
 export default function GreetingsComponent({ user }) {
   const { fName, lName, shortIntro, skills, socialLinks } = user;
+  console.log();
 
   const renderSocialMediaIcon = (type) => {
     switch (type) {
