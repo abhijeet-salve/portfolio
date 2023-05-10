@@ -268,6 +268,22 @@ const USERS = {
       },
     ],
   },
+  akhila: {
+    customEmoji: " :butterfly:",
+    fName: "Akhila",
+    lName: "Lakshmanan",
+    skills: ["code", "design", "sing"],
+    shortIntro:
+      "I'm a frontend developer who likes to build seamless and beautiful user experiences\nby harnessing my development and design skills.",
+    calendyUserName: "ak-akhilalakshmanan",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "https://www.linkedin.com/in/akhila-lakshmanan-26021995/",
+        isActive: true,
+      },
+    ],
+  },
 };
 
 export const getUserDetails = (username) => {
