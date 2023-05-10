@@ -295,7 +295,7 @@ const USERS = {
     ],
   },
   akhila: {
-    customEmoji: " :butterfly:",
+    customEmoji: "🦋",
     fName: "Akhila",
     lName: "Lakshmanan",
     skills: ["code", "design", "sing"],
