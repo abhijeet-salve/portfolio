@@ -201,7 +201,7 @@ const USERS = {
     customEmoji: "🏂",
     fName: "Chirag",
     lName: "Vyas",
-    skills: ["design", "code", "dance", "produce rap music"],
+    skills: ["design", "code", "dance", "make beats"],
     shortIntro:
       "I'm a full stack frontend developer, designing and programming user interfaces. I sound design as well.",
     calendyUserName: "chiragvyas",
@@ -264,6 +264,32 @@ const USERS = {
       {
         name: "imdb",
         url: "https://www.imdb.com/name/nm6142644",
+        isActive: true,
+      },
+    ],
+  },
+  parth: {
+    customEmoji: "",
+    fName: "Parth",
+    lName: "Joshi",
+    skills: ["Sell", "Execute business", "Earn", "Chill"],
+    shortIntro:
+      "I'm a Business Development Officer, selling and managing my team of fellow sales representatives.",
+    calendyUserName: "parthu",
+    socialLinks: [
+      {
+        name: "linkedIn",
+        url: "",
+        isActive: true,
+      },
+      {
+        name: "twitter",
+        url: "",
+        isActive: true,
+      },
+      {
+        name: "instagram",
+        url: "",
         isActive: true,
       },
     ],
