@@ -10,8 +10,7 @@ const USERS = {
     socialLinks: [
       {
         name: "whatsapp",
-        // url: `https://wa.me/505285673`,
-        url: `https://wa.me/+971501698740`,
+        url: `https://wa.me/+971505285673`,
         isActive: true,
       },
       {
