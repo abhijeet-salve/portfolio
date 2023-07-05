@@ -1,17 +1,28 @@
+// import { useEffect, useCallback } from "react";
 import { useRouter } from "next/router";
 import Head from "next/head";
 import Greetings from "../components/GreetingsComponent";
-import MainSkills from "../components/MainSkillsComponent";
-import Header from "../components/HeaderComponent";
-import GoBack from "../components/common/GoBackComponent";
-
 import { getUserDetails } from "../userUtils";
+// import { fetchAPI } from "../utils/fetch-api";
 
 const Profile = () => {
   const router = useRouter();
   const { user } = router.query;
 
   const userDetails = getUserDetails(user);
+
+  // const fetchData = useCallback(async (start, limit) => {
+  //   const token = process.env.NEXT_PUBLIC_STRAPI_API_TOKEN;
+  //   const path = `/stars`;
+
+  //   const options = { headers: { Authorization: `Bearer ${token}` } };
+  //   const responseData = await fetchAPI(path, options);
+  //   console.log("...", responseData);
+  // }, []);
+
+  // useEffect(() => {
+  //   fetchData();
+  // });
 
   return (
     <>

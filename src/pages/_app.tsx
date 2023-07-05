@@ -1,7 +1,7 @@
 import type { AppProps } from "next/app";
 import { Analytics } from "@vercel/analytics/react";
 import { ThemeProvider } from "next-themes";
-import Header from "../components/HeaderComponent";
+import Header from "../components/common/HeaderComponent";
 import GoBack from "../components/common/GoBackComponent";
 import "@/styles/globals.css";
 

@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { CalendarDaysIcon } from "@heroicons/react/24/solid";
 import ThemeToggle from "./ThemeToggle";
-import { getCalendyUserName, getCustomEmoji } from "../userUtils";
+import { getCalendyUserName, getCustomEmoji } from "../../userUtils";
 
 export default function HeaderComponent() {
   const router = useRouter();

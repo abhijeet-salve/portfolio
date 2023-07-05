@@ -9,6 +9,12 @@ const USERS = {
     calendyUserName: "curryshma",
     socialLinks: [
       {
+        name: "whatsapp",
+        // url: `https://wa.me/505285673`,
+        url: `https://wa.me/+971501698740`,
+        isActive: true,
+      },
+      {
         name: "linkedIn",
         url: "https://www.linkedin.com/in/karishmabaat/",
         isActive: true,
